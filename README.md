@@ -8,6 +8,7 @@ This repository keeps coursework organized in one place.
 - `notes/` — class and study notes
 - `resources/` — reference material that can be stored in Git
 - `archive/` — completed or inactive coursework
+- `site/` — the web app published through GitHub Pages
 
 ## Suggested workflow
 
@@ -32,3 +33,9 @@ Commit small, meaningful milestones and open a pull request when you want a revi
 1. Create your course folders under `assignments/` and `notes/`.
 2. Copy `.assignment-template/` when starting a new assignment.
 3. Update this README with course-specific commands or deadlines.
+
+## Publishing
+
+Every push to `main` runs `.github/workflows/deploy-pages.yml` and publishes the
+contents of `site/` to GitHub Pages. Put the submission's HTML, CSS, JavaScript,
+and static assets in that folder.
