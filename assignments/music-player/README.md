@@ -1,12 +1,10 @@
-# After Hours — music player homework
-The finished web app lives in ../../site/ because the existing GitHub Pages workflow publishes that folder.
-- index.html: content and buttons
-- styles.css: appearance and mobile layout
-- app.js: playback and three original synthesized demo tracks
-- art/: original SVG album covers
-- CREDITS.md: audio and artwork provenance
+# Abstract Radio — music player homework
+The web app lives in `../../site/` because the GitHub Pages workflow publishes that folder.
+- `index.html`: the listening room and song picks
+- `styles.css`: obsidian and purple colors and responsive layout
+- `app.js`: YouTube link validation and player loading
+- `CREDITS.md`: music and visual credits
 
-Open site/index.html in a browser and press Play. No install or build is needed.
-Only site/ is deployed; coursework in other folders stays off the website.
+Open `site/index.html` in a browser, select a song, and press Play inside the YouTube player. No install or build is needed. Only `site/` is deployed; other coursework remains off the website.
 
-Try next: change the colors, add a fourth track, or replace the synthesized music with properly licensed audio files.
+Iteration log: the first version featured three original synthesized tracks. This version replaced that series with the YouTube listening room and renamed the site Abstract Radio.

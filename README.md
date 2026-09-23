@@ -1,33 +1,26 @@
-# Homework / After Hours
-A small music player made with HTML, CSS, and JavaScript. Three original 32-second electronic sketches are synthesized in your browser; there are no music samples or paid services.
+# Homework / Abstract Radio
+A small YouTube listening room built with HTML, CSS, and JavaScript. Pick one of three featured songs or paste a YouTube or YouTube Music video URL. The embedded YouTube player supplies playback controls.
 
 ## Open it
-Open `site/index.html` in Chrome, Edge, Firefox, or Safari and press Play.
-Features: track selection, play/pause, previous/next, seek, volume/mute, automatic next track, keyboard focus support, and a responsive mobile layout.
-The space bar toggles playback when a form control is not focused.
+Visit https://jfux30-gif.github.io/homework/ or open `site/index.html` in a browser. Select a song and press Play inside the embedded player. Some YouTube videos cannot be embedded by their owners.
 
 ## Where things live
-- `site/index.html`: the content and buttons
-- `site/styles.css`: colors, spacing, and mobile layout
-- `site/app.js`: controls and original audio synthesis
-- `site/art/`: original album covers
-- `site/CREDITS.md`: music and artwork provenance
+- `site/index.html`: layout and featured song picks
+- `site/styles.css`: obsidian and purple styling and mobile layout
+- `site/app.js`: video URL validation and player selection
+- `site/CREDITS.md`: music and visual credits
 - `assignments/music-player/`: assignment notes
-- `notes/`, `resources/`, `archive/`: your wider homework workspace
+- `notes/`, `resources/`, `archive/`: the wider homework workspace
 
 ## How publishing works
-1. Edit files locally.
+1. Edit the files locally.
 2. A **commit** saves a named checkpoint in Git.
-3. A **push** sends your commits to the online GitHub repository.
-4. GitHub Actions runs the recipe in `.github/workflows/deploy-pages.yml`.
-5. GitHub Pages publishes only the `site/` folder.
+3. A **push** sends the checkpoint to GitHub.
+4. GitHub Actions runs `.github/workflows/deploy-pages.yml`.
+5. GitHub Pages publishes the `site/` folder.
 
-The workflow runs on every push to `main` or through Actions → Run workflow.
-First-time setup: make the repository public if your plan requires it, then select Settings → Pages → Source → GitHub Actions.
-
+The workflow runs on each push to `main` or via Actions → Run workflow.
 Repository: https://github.com/jfux30-gif/homework
-Expected Pages address after a successful deployment: https://jfux30-gif.github.io/homework/
+Website: https://jfux30-gif.github.io/homework/
 
-## Next experiments
-Ask for a fourth track, different colors, a favorites button, or longer music.
-GitHub Pages hosts browser code and static assets. It does not run a backend or safely store secret API keys.
+This is a static site. It embeds YouTube videos; it does not host or download the songs.
