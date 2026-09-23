@@ -1,11 +1,14 @@
 # Homework / Abstract Radio
-A small YouTube listening room built with HTML, CSS, and JavaScript. Pick one of three featured songs or paste a YouTube or YouTube Music video URL. The embedded YouTube player supplies playback controls.
+A small YouTube listening room and artist page built with HTML, CSS, and JavaScript. Pick one of three featured songs or paste a YouTube or YouTube Music video URL. The embedded YouTube player supplies playback controls.
 
 ## Open it
 Visit https://jfux30-gif.github.io/homework/ or open `site/index.html` in a browser. Select a song and press Play inside the embedded player. Some YouTube videos cannot be embedded by their owners.
 
 ## Where things live
-- `site/index.html`: layout and featured song picks
+- `site/index.html`: listening room and featured song picks
+- `site/about.html`: Jenzi’s introduction and vision for Abstract Radio
+- `site/about.css`: About page layout and typography
+- `site/images/jenzi-portrait.jpg`: portrait image supplied for the About page
 - `site/styles.css`: obsidian and purple styling and mobile layout
 - `site/app.js`: video URL validation and player selection
 - `site/CREDITS.md`: music and visual credits
