@@ -1,41 +1,33 @@
-# Homework Workspace
+# Homework / After Hours
+A small music player made with HTML, CSS, and JavaScript. Three original 32-second electronic sketches are synthesized in your browser; there are no music samples or paid services.
 
-This repository keeps coursework organized in one place.
+## Open it
+Open `site/index.html` in Chrome, Edge, Firefox, or Safari and press Play.
+Features: track selection, play/pause, previous/next, seek, volume/mute, automatic next track, keyboard focus support, and a responsive mobile layout.
+The space bar toggles playback when a form control is not focused.
 
-## Structure
+## Where things live
+- `site/index.html`: the content and buttons
+- `site/styles.css`: colors, spacing, and mobile layout
+- `site/app.js`: controls and original audio synthesis
+- `site/art/`: original album covers
+- `site/CREDITS.md`: music and artwork provenance
+- `assignments/music-player/`: assignment notes
+- `notes/`, `resources/`, `archive/`: your wider homework workspace
 
-- `assignments/` — work grouped by course and assignment
-- `notes/` — class and study notes
-- `resources/` — reference material that can be stored in Git
-- `archive/` — completed or inactive coursework
-- `site/` — the web app published through GitHub Pages
+## How publishing works
+1. Edit files locally.
+2. A **commit** saves a named checkpoint in Git.
+3. A **push** sends your commits to the online GitHub repository.
+4. GitHub Actions runs the recipe in `.github/workflows/deploy-pages.yml`.
+5. GitHub Pages publishes only the `site/` folder.
 
-## Suggested workflow
+The workflow runs on every push to `main` or through Actions → Run workflow.
+First-time setup: make the repository public if your plan requires it, then select Settings → Pages → Source → GitHub Actions.
 
-Create one folder per course, then one folder per assignment:
+Repository: https://github.com/jfux30-gif/homework
+Expected Pages address after a successful deployment: https://jfux30-gif.github.io/homework/
 
-```text
-assignments/
-  course-name/
-    assignment-01/
-```
-
-For larger assignments, create a Git branch before starting:
-
-```text
-git switch -c course-name/assignment-01
-```
-
-Commit small, meaningful milestones and open a pull request when you want a review.
-
-## Getting started
-
-1. Create your course folders under `assignments/` and `notes/`.
-2. Copy `.assignment-template/` when starting a new assignment.
-3. Update this README with course-specific commands or deadlines.
-
-## Publishing
-
-Every push to `main` runs `.github/workflows/deploy-pages.yml` and publishes the
-contents of `site/` to GitHub Pages. Put the submission's HTML, CSS, JavaScript,
-and static assets in that folder.
+## Next experiments
+Ask for a fourth track, different colors, a favorites button, or longer music.
+GitHub Pages hosts browser code and static assets. It does not run a backend or safely store secret API keys.
